@@ -2,23 +2,23 @@ import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom';
 
 export const DashboardContainer = styled.div`
-    background: black;
+    background: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 0 30px;
     height: 800px;
     position: relative;
     z-index: 1;
 `
+
+export const Photo = styled.div`
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 200px;
+    margin-left:300px;
+`
+
 export const Logout = styled.div`
-z-index: 3;
-max-width: 1200 px;
-position: absolute;
-padding: 8px 24px;
-display: flex;
-flex-direction: column;
-align-items: center;
+
 
 `
 
