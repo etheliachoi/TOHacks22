@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Link as LinkR} from 'react-router-dom'; //goes to dif page
 
 export const HeroContainer = styled.div`
-    background: black;
+    background: #6e5442;
     display: flex;
     justify-content: center;
     align-items: center;
